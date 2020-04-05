@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05166cbd-699f-402d-8bed-11fdaf8a5f12" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\54336\IdeaProjects\Spring-Boot-In-Action\diy-rpc\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a4bW80jwTuJFd7wOO85gzos0bZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.hjy.rpc.server" />
+      <recent name="com.hjy.rpc.codec" />
+      <recent name="com.hjy.rpc.common.utils" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hjy.rpc.client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ServiceManagerTest.lookup">
+    <configuration name="JSONDecoderTest.decoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diy-rpc-codec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjy.rpc.codec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hjy.rpc.codec" />
+      <option name="MAIN_CLASS_NAME" value="com.hjy.rpc.codec.JSONDecoderTest" />
+      <option name="METHOD_NAME" value="decoder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionUtilsTest.getPublicMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diy-rpc-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjy.rpc.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hjy.rpc.common.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.hjy.rpc.common.utils.ReflectionUtilsTest" />
+      <option name="METHOD_NAME" value="getPublicMethods" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionUtilsTest.invoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diy-rpc-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjy.rpc.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hjy.rpc.common.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.hjy.rpc.common.utils.ReflectionUtilsTest" />
+      <option name="METHOD_NAME" value="invoke" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceManagerTest.lookup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diy-rpc-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjy.rpc.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hjy.rpc.server" />
+      <option name="MAIN_CLASS_NAME" value="com.hjy.rpc.server.ServiceManagerTest" />
+      <option name="METHOD_NAME" value="lookup" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceManagerTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diy-rpc-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjy.rpc.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hjy.rpc.server" />
+      <option name="MAIN_CLASS_NAME" value="com.hjy.rpc.server.ServiceManagerTest" />
+      <option name="METHOD_NAME" value="register" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ServiceManagerTest.lookup" />
+        <item itemvalue="JUnit.ServiceManagerTest.register" />
+        <item itemvalue="JUnit.JSONDecoderTest.decoder" />
+        <item itemvalue="JUnit.ReflectionUtilsTest.invoke" />
+        <item itemvalue="JUnit.ReflectionUtilsTest.getPublicMethods" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05166cbd-699f-402d-8bed-11fdaf8a5f12" name="Default Changelist" comment="" />
+      <created>1585997841844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585997841844</updated>
+      <workItem from="1585997844944" duration="2211000" />
+      <workItem from="1586000102322" duration="8094000" />
+      <workItem from="1586063835714" duration="12663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1104" y="184" key="#Project_Structure" timestamp="1586093448653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1104" y="184" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586093448653" />
+    <state x="1426" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1586093557330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1426" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586093557330" />
+    <state x="1028" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586074420114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1028" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586074420114" />
+    <state width="420" height="466" key="DebuggerActiveHint" timestamp="1586063286191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="420" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586063286191" />
+    <state x="426" y="169" key="FileChooserDialogImpl" timestamp="1586102231826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="426" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586102231826" />
+    <state width="1506" height="279" key="GridCell.Tab.0.bottom" timestamp="1586093412142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1506" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586093412142" />
+    <state width="1506" height="279" key="GridCell.Tab.0.center" timestamp="1586093412142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1506" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586093412142" />
+    <state width="1506" height="279" key="GridCell.Tab.0.left" timestamp="1586093412142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1506" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586093412142" />
+    <state width="1506" height="279" key="GridCell.Tab.0.right" timestamp="1586093412142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1506" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586093412142" />
+    <state width="1339" height="344" key="GridCell.Tab.1.bottom" timestamp="1586063813143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586063813143" />
+    <state width="1339" height="344" key="GridCell.Tab.1.center" timestamp="1586063813143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586063813143" />
+    <state width="1339" height="344" key="GridCell.Tab.1.left" timestamp="1586063813143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586063813143" />
+    <state width="1339" height="344" key="GridCell.Tab.1.right" timestamp="1586063813143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586063813143" />
+    <state x="561" y="189" key="Maven.ArtifactSearchDialog" timestamp="1586065117072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="561" y="189" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586065117072" />
+    <state x="672" y="134" key="SettingsEditor" timestamp="1586064085885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="134" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586064085885" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586064631724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1586064631724" />
+    <state x="695" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586063835945">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586063835945" />
+    <state x="1462" y="247" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586068007644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1462" y="247" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586068007644" />
+    <state x="1126" y="220" width="786" height="600" key="find.popup" timestamp="1586062131489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1126" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586062131489" />
+    <state x="669" y="201" key="new project wizard" timestamp="1586093397818">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="201" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586093397818" />
+    <state x="1269" y="242" key="run.anything.popup" timestamp="1586064328504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1269" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586064328504" />
+    <state x="964" y="280" width="672" height="678" key="search.everywhere.popup" timestamp="1586007070269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="964" y="280" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586007070269" />
+  </component>
+</project>
