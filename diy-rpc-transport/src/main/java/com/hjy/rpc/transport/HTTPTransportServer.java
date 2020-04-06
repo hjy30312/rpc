@@ -13,6 +13,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
+/**
+ * 1. 启动，监听端口
+ * 2. 接受请求
+ * 3. 关闭监听
+ */
 @Slf4j
 public class HTTPTransportServer implements TransportServer {
 
@@ -24,10 +29,11 @@ public class HTTPTransportServer implements TransportServer {
         this.handler = handler;
         this.server = new Server(port);
 
-        // servlet请求
+        // Servlet Context Handler  上下文处理者
         ServletContextHandler ctx = new ServletContextHandler();
         server.setHandler(ctx);
 
+        // Servlet Instance and Context Holder.  Servlet实例和上下文持有者
         ServletHolder holder = new ServletHolder(new RequestServlet());
         ctx.addServlet(holder, "/*");
     }
@@ -36,6 +42,7 @@ public class HTTPTransportServer implements TransportServer {
     public void start() {
         try {
             server.start();
+            // 等待server.start()运行完毕
             server.join();
         } catch (Exception e) {
             log.error(e.getMessage(), e);

@@ -36,6 +36,7 @@ public class RemoteInvoker implements InvocationHandler {
     @Override
     public Object invoke(Object proxy
             , Method method, Object[] args) throws Throwable {
+        log.info("RemoteInvoker invoke()");
         // 1.创建request对象
         Request request = new Request();
         request.setService(ServiceDescriptor.from(clazz, method));
@@ -74,7 +75,7 @@ public class RemoteInvoker implements InvocationHandler {
             response.setMessage("RPClient got error: "
                     + e.getClass()
                     + " : " + e.getMessage());
-        }finally {
+        } finally {
             if (client != null) {
                 selector.release(client);
             }

@@ -3,7 +3,7 @@ package com.hjy.rpc;
 import lombok.Data;
 
 /**
- * 表示RPC的一个轻轻
+ * 表示RPC的一个请求
  */
 @Data
 public class Request {

@@ -32,7 +32,7 @@ public class RandomTransportSelector implements TransportSelector {
                 client.connect(peer);
                 clients.add(client);
             }
-            log.info("connect server: {}", peer);
+            log.info("connect server: {}", peers);
         }
     }
 

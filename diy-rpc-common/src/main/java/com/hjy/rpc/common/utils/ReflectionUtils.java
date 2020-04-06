@@ -1,7 +1,5 @@
 package com.hjy.rpc.common.utils;
 
-
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
@@ -26,22 +24,22 @@ public class ReflectionUtils {
     }
 
     /**
-     * 获取某个class的共有方法
+     * 获取某个class的公有方法
      * @param clazz
      * @return 当前类声明的共有方法
      */
     public static Method[] getPublicMethods(Class clazz) {
         // 返回当前类所有的方法
         Method[] methods = clazz.getDeclaredMethods();
-        List<Method> pmethods = new ArrayList<>();
+        List<Method> pMethods = new ArrayList<>();
         // 过滤
         for (Method m : methods) {
             if (Modifier.isPublic(m.getModifiers())) {
-                pmethods.add(m);
+                pMethods.add(m);
             }
         }
         // list 转数组
-        return pmethods.toArray(new Method[0]);
+        return pMethods.toArray(new Method[0]);
     }
 
     /**

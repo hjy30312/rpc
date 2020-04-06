@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05166cbd-699f-402d-8bed-11fdaf8a5f12" name="Default Changelist" comment="" />
+    <list default="true" id="05166cbd-699f-402d-8bed-11fdaf8a5f12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diy-rpc-example/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-client/src/main/java/com/hjy/rpc/client/RandomTransportSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-client/src/main/java/com/hjy/rpc/client/RandomTransportSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-client/src/main/java/com/hjy/rpc/client/RemoteInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-client/src/main/java/com/hjy/rpc/client/RemoteInvoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-client/src/main/java/com/hjy/rpc/client/TransportSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-client/src/main/java/com/hjy/rpc/client/TransportSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-common/src/main/java/com/hjy/rpc/common/utils/ReflectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-common/src/main/java/com/hjy/rpc/common/utils/ReflectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-common/target/classes/com/hjy/rpc/common/utils/ReflectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-common/target/classes/com/hjy/rpc/common/utils/ReflectionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-example/src/main/java/com/hjy/rpc/example/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-example/src/main/java/com/hjy/rpc/example/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-proto/src/main/java/com/hjy/rpc/Peer.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-proto/src/main/java/com/hjy/rpc/Peer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-proto/src/main/java/com/hjy/rpc/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-proto/src/main/java/com/hjy/rpc/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-proto/src/main/java/com/hjy/rpc/ServiceDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-proto/src/main/java/com/hjy/rpc/ServiceDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-proto/target/classes/com/hjy/rpc/Peer.class" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-proto/target/classes/com/hjy/rpc/Peer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-server/src/main/java/com/hjy/rpc/server/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-server/src/main/java/com/hjy/rpc/server/RpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-transport/src/main/java/com/hjy/rpc/transport/HTTPTransportClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-transport/src/main/java/com/hjy/rpc/transport/HTTPTransportClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-transport/src/main/java/com/hjy/rpc/transport/HTTPTransportServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-transport/src/main/java/com/hjy/rpc/transport/HTTPTransportServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-transport/src/main/java/com/hjy/rpc/transport/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-transport/src/main/java/com/hjy/rpc/transport/RequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-transport/src/main/java/com/hjy/rpc/transport/TransportServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-transport/src/main/java/com/hjy/rpc/transport/TransportServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-transport/target/classes/com/hjy/rpc/transport/HTTPTransportClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-transport/target/classes/com/hjy/rpc/transport/HTTPTransportClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-transport/target/classes/com/hjy/rpc/transport/HTTPTransportServer$RequestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-transport/target/classes/com/hjy/rpc/transport/HTTPTransportServer$RequestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy-rpc-transport/target/classes/com/hjy/rpc/transport/HTTPTransportServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/diy-rpc-transport/target/classes/com/hjy/rpc/transport/HTTPTransportServer.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +87,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -80,51 +102,42 @@
       <recent name="com.hjy.rpc.client" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceManagerTest.lookup">
-    <configuration name="JSONDecoderTest.decoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diy-rpc-codec" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hjy.rpc.example.Client" />
+      <module name="diy-rpc-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hjy.rpc.codec.*" />
+          <option name="PATTERN" value="com.hjy.rpc.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hjy.rpc.codec" />
-      <option name="MAIN_CLASS_NAME" value="com.hjy.rpc.codec.JSONDecoderTest" />
-      <option name="METHOD_NAME" value="decoder" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionUtilsTest.getPublicMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diy-rpc-common" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hjy.rpc.example.Server" />
+      <module name="diy-rpc-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hjy.rpc.common.utils.*" />
+          <option name="PATTERN" value="com.hjy.rpc.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hjy.rpc.common.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.hjy.rpc.common.utils.ReflectionUtilsTest" />
-      <option name="METHOD_NAME" value="getPublicMethods" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionUtilsTest.invoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diy-rpc-common" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hjy.rpc.example.ThreadDemo" />
+      <module name="diy-rpc-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hjy.rpc.common.utils.*" />
+          <option name="PATTERN" value="com.hjy.rpc.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hjy.rpc.common.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.hjy.rpc.common.utils.ReflectionUtilsTest" />
-      <option name="METHOD_NAME" value="invoke" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.ThreadDemo" />
         <item itemvalue="JUnit.ServiceManagerTest.lookup" />
         <item itemvalue="JUnit.ServiceManagerTest.register" />
-        <item itemvalue="JUnit.JSONDecoderTest.decoder" />
-        <item itemvalue="JUnit.ReflectionUtilsTest.invoke" />
-        <item itemvalue="JUnit.ReflectionUtilsTest.getPublicMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -195,12 +208,24 @@
       <updated>1585997841844</updated>
       <workItem from="1585997844944" duration="2211000" />
       <workItem from="1586000102322" duration="8094000" />
-      <workItem from="1586063835714" duration="12663000" />
+      <workItem from="1586063835714" duration="26049000" />
     </task>
+    <task id="LOCAL-00001" summary="RPC">
+      <created>1586102279712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586102279712</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RPC" />
+    <option name="LAST_COMMIT_MESSAGE" value="RPC" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1104" y="184" key="#Project_Structure" timestamp="1586093448653">
@@ -215,58 +240,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1028" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586074420114" />
-    <state width="420" height="466" key="DebuggerActiveHint" timestamp="1586063286191">
+    <state x="986" y="133" key="CommitChangelistDialog2" timestamp="1586102278197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="420" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586063286191" />
+    <state x="986" y="133" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586102278197" />
+    <state width="420" height="466" key="DebuggerActiveHint" timestamp="1586177243451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="420" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586177243451" />
     <state x="426" y="169" key="FileChooserDialogImpl" timestamp="1586102231826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="426" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586102231826" />
-    <state width="1506" height="279" key="GridCell.Tab.0.bottom" timestamp="1586093412142">
+    <state width="1559" height="277" key="GridCell.Tab.0.bottom" timestamp="1586177718127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1506" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586093412142" />
-    <state width="1506" height="279" key="GridCell.Tab.0.center" timestamp="1586093412142">
+    <state width="1559" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586177718127" />
+    <state width="1559" height="277" key="GridCell.Tab.0.center" timestamp="1586177718126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1506" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586093412142" />
-    <state width="1506" height="279" key="GridCell.Tab.0.left" timestamp="1586093412142">
+    <state width="1559" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586177718126" />
+    <state width="1559" height="277" key="GridCell.Tab.0.left" timestamp="1586177718126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1506" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586093412142" />
-    <state width="1506" height="279" key="GridCell.Tab.0.right" timestamp="1586093412142">
+    <state width="1559" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586177718126" />
+    <state width="1559" height="277" key="GridCell.Tab.0.right" timestamp="1586177718126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1506" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586093412142" />
-    <state width="1339" height="344" key="GridCell.Tab.1.bottom" timestamp="1586063813143">
+    <state width="1559" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586177718126" />
+    <state width="1559" height="342" key="GridCell.Tab.1.bottom" timestamp="1586177685241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586063813143" />
-    <state width="1339" height="344" key="GridCell.Tab.1.center" timestamp="1586063813143">
+    <state width="1559" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586177685241" />
+    <state width="1559" height="342" key="GridCell.Tab.1.center" timestamp="1586177685241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586063813143" />
-    <state width="1339" height="344" key="GridCell.Tab.1.left" timestamp="1586063813143">
+    <state width="1559" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586177685241" />
+    <state width="1559" height="342" key="GridCell.Tab.1.left" timestamp="1586177685241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586063813143" />
-    <state width="1339" height="344" key="GridCell.Tab.1.right" timestamp="1586063813143">
+    <state width="1559" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586177685241" />
+    <state width="1559" height="342" key="GridCell.Tab.1.right" timestamp="1586177685241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586063813143" />
+    <state width="1559" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586177685241" />
     <state x="561" y="189" key="Maven.ArtifactSearchDialog" timestamp="1586065117072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="561" y="189" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586065117072" />
-    <state x="672" y="134" key="SettingsEditor" timestamp="1586064085885">
+    <state x="672" y="134" key="SettingsEditor" timestamp="1586103822660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="134" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586064085885" />
+    <state x="672" y="134" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586103822660" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1586064631724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1586064631724" />
+    <state x="1035" y="264" key="Vcs.Push.Dialog.v2" timestamp="1586102290763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1035" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586102290763" />
     <state x="695" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586063835945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

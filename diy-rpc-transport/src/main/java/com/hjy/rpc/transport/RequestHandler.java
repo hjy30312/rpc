@@ -7,7 +7,7 @@ import java.io.OutputStream;
  * 处理网络请求的hander
  */
 public interface RequestHandler {
-    void onRequest(InputStream receive, OutputStream toResponse);
 
+    void onRequest(InputStream receive, OutputStream toResponse);
 
 }

@@ -7,7 +7,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
+/**
+ * 1. 创建连接
+ * 2. 发送数据，并且等待响应
+ * 3. 关闭连接
+ */
 public class HTTPTransportClient implements TransportClient{
 
     private String url;

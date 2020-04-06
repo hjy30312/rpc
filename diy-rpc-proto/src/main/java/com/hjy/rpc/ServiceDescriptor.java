@@ -30,7 +30,7 @@ public class ServiceDescriptor {
         sdp.setClazz(clazz.getName());
         sdp.setMethod(method.getName());
         sdp.setReturnType(method.getReturnType().getName());
-
+        // 转换传参类型
         Class[] parameterClasses = method.getParameterTypes();
         String[] parameterTypes = new String[parameterClasses.length];
         for (int i = 0; i < parameterClasses.length; i++) {

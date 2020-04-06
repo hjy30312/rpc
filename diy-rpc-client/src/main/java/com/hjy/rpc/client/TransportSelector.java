@@ -6,7 +6,7 @@ import com.hjy.rpc.transport.TransportClient;
 import java.util.List;
 
 /**
- * 表示现在哪个server去连接
+ * 表示选择哪个server去连接
  */
 public interface TransportSelector {
 
@@ -20,7 +20,7 @@ public interface TransportSelector {
             , Class<? extends TransportClient> clazz);
 
     /**
-     * 现在一个transport与server做交互
+     * 选择一个transport与server做交互
      * @return
      */
     TransportClient select();
